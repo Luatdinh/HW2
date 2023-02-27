@@ -1,0 +1,223 @@
+div.style1
+{
+    font-family: "Times New Roman", Times, serif; /* Requirement - 2.1 */
+    font-size: 100px; /* Requirement - 2.9 */
+    font-style: italic;
+    color: yellow; /* Requirement - 2.3 */
+    padding: 2%; /* Requirement - 2.10 */
+}
+
+ul.style
+{
+    list-style-type: circle; /* Requirement - 2.8 */
+}
+
+div.style2
+{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    color: red;
+}
+
+.style3 /* Requirement - 2.C */
+{
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 5px; /* Requirement - 2.2 */
+    text-align: center;
+    color: red;
+
+}
+
+.style4
+{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    color: red; 
+    width: 200px;
+}
+
+body div.fence
+{
+    border-style: dashed; /* Requirement - 2.5 */
+    border-color: red;
+    padding: 10px;
+    width: 500px;
+    height: 25px;
+    background-color: lightblue;
+}
+.fence2
+{
+    border:1px solid red;
+    text-align: center;
+    background-color: lightblue;
+    
+}
+.width
+{
+    width: 500px; /* Requirement - 2.7 */
+}
+.width2
+{
+    width: 400px;
+}
+.title
+{
+    font-family: "Times New Roman", Times, serif;
+    color: red;
+    text-align: center;
+}
+body div.title2
+{
+    font-family: "Times New Roman", Times, serif;
+    background-color: lightblue; /* Requirement - 2.4 */
+    color: red;
+    text-align: center;
+    padding: 2%; 
+}
+
+body p.format
+{
+    border: 1px solid red;
+    width: 500px;
+    height: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+body p.format2
+{
+    border: 1px solid red;
+    background-color: lightblue;
+    padding-top: 5px;  /* Requirement - 2.6 */
+    padding-right: 3px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    text-align: center;
+}
+
+#inline /* Requirement - 2.D */
+{
+    display: inline;
+}
+div.picformat img
+{
+    width:1400px;
+    height:370px;
+}
+
+div.picture img{
+    width: 205px;
+    height: 207px;
+    float: left; /* Requirement - 2.11 */
+}
+div.picture2 img
+{
+    width: 1500px;
+    height: 1000px;
+}
+body p.left
+{
+    clear: left;  /* Requirement - 2.13 */
+    border: 1px solid red;
+    width: 200px;
+    background-color: lightblue;
+}
+
+body div.scroll
+{
+    background-color: lightblue; 
+    width: 400px;
+    height: 100px;
+    border: 1px solid red;
+    overflow: scroll; /* Requirement - 2.14 */
+}
+
+body div.relative
+{
+    position: relative; /* Requirement - 2.15 */
+    left: 30px;
+    border: 1px solid red;
+    width: 700px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    background-color: lightblue; 
+}
+
+body p.visible
+{
+    visibility: visible; /* Requirement - 2.16 */
+}
+
+body img.image
+{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1; /* Requirement - 2.17 */
+}
+
+h3, h1 /* Requirement - 2.B */
+{
+    text-align: center;
+    border: 1px solid red; 
+    width: 200px;
+    background-color: lightblue;
+}
+li a
+{
+    background-color: black;
+    display: block; /* Requirement - 2.12 */
+    color: white;
+    text-align: center;
+    width: 500px;
+}
+
+li a:hover /* Requirement - 2.E */
+{
+  background: red;
+}
+
+summary /* Requirement - 2.H */
+{
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    padding:4px;
+    width: 300px;
+    margin: 20px;
+    color: red;
+}
+
+details > p:not(.active)
+{
+    padding:4px;
+    width: 400px;
+    margin: 20px;
+    background-color: orange;
+}
+details /* Requirement - 2.G */
+{
+    background-color:lightblue;
+    width: 500px;
+    margin: 20px;
+
+}
+.active
+{
+    background-color: lightgreen;
+    padding:4px;
+    width: 400px;
+    margin: 20px;
+}
+
+div /* Requirement - 2.F */
+{
+    color: red;
+}
+
+p /* Requirement - 2.A */
+{
+    color: blue;
+}
